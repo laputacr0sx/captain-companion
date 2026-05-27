@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex-1 flex flex-col items-center justify-center px-4">
+    <main className="flex-1 flex flex-col items-center justify-center px-4 bg-background">
       <div className="max-w-md w-full space-y-8 text-center">
         <div>
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+          <h1 className="text-4xl font-bold tracking-tight text-primary">
             Captain Companion
           </h1>
           <p className="mt-4 text-zinc-600 dark:text-zinc-400">
